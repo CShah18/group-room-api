@@ -1,0 +1,24 @@
+{
+  "name": "group-room-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.31.1",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "redis": "^4.6.7",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.0.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "express-validator": "^6.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
