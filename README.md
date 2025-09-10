@@ -21,6 +21,9 @@ Tech stack:
 3. Start:
    npm run dev
 
+## Deployed URL
+https://group-room-api.onrender.com/api-docs
+
 ## Endpoints
 - POST /groups
   body: { "maxParticipants": 3, "expiryMinutes": 30 }  -> creates a group, sets Redis TTL
